@@ -1,0 +1,11 @@
+---
+- name: Print Messages
+  hosts: all
+  tasks:
+    - debug: msg="Hello Ansible"
+
+- name: Print Host variables
+  hosts: all
+  tasks:
+      - debug: var=hostvars
+

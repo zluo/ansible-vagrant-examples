@@ -4,6 +4,8 @@
 # Vagrant.
 .vagrant/
 
+.idea
+
 # Ansible.
 *.retry
 */roles/*
